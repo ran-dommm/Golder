@@ -1,0 +1,28 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      //"cortex-debug.armToolchainPath": "E:\\ArmChain\\10 2021.07\\bin",
+      "cortex-debug.armToolchainPath": "D:\\ArmChain\\10 2021.07\\bin",
+      "name": "PyOCD",
+      "type": "cortex-debug",
+      "request": "launch",
+      "servertype": "pyocd",
+      "executable": "../../build/MOSv1.0.elf",
+      "runToMain": true,
+      "svdFile": "C:\\Users\\randommm\\pyOCD\\pyocd\\debug\\svd\\data\\STM32F103xx.svd",
+      "targetId": "STM32F103C8",
+      "cmsisPack": "C:\\Users\\randommm\\AppData\\Local\\cmsis-pack-manager\\cmsis-pack-manager\\Keil\\STM32F1xx_DFP\\2.3.0.pack",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/path/to/gdb",
+    }
+  ]
+}
